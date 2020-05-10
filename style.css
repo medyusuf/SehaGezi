@@ -20,6 +20,14 @@
   pointer-events: none;
   user-select: none;
 }
+
+
+        
+
+
+  
+    
+  
 #Points {
   fill: none;
   stroke: #1e3a43;
@@ -79,7 +87,7 @@
 }
 #popup
 {
-  position:fixed;
+  position:relative;
   top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
