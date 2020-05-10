@@ -79,17 +79,17 @@
 }
 #popup
 {
-  position: relative;
+  position:fixed;
   top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
-  width: 640px;
+  width: 900px;
   padding: 50px;
-  overflow: scroll;
 
   visibility: hidden;
   opacity: 0;
   transition: 0.5s;
+  overflow:auto;
 }
 #popup.active
 {
@@ -97,5 +97,5 @@
   visibility: visible;
   opacity: 1;
   transition: 0.5s;
-  overflow: scroll;
+  overflow:auto;
 }
