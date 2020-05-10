@@ -87,7 +87,7 @@
 }
 #popup
 {
-  position:relative;
+  position:inherit;
   top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -98,8 +98,7 @@
   opacity: 0;
   transition: 0.5s;
   overflow:hidden;
-	overflow-y: scroll;
-	display:none;
+  overflow-y: scroll;
 }
 #popup.active
 {
