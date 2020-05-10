@@ -97,7 +97,9 @@
   visibility: hidden;
   opacity: 0;
   transition: 0.5s;
-  overflow: scroll;
+  overflow:hidden;
+	overflow-y: scroll;
+	display:none;
 }
 #popup.active
 {
