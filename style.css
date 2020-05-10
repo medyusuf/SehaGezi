@@ -1,0 +1,101 @@
+
+.banner{
+  margin: auto;
+  color: #ffffff;
+  text-align: center;
+}
+.Copyright{
+  margin:auto;
+  color: #ffffff;
+  text-align: right;
+}
+.mapdiv
+{
+  width:45%;
+  margin: auto;
+}
+.mapdiv#blur.active
+{
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
+#Points {
+  fill: none;
+  stroke: #1e3a43;
+  stroke-width:4px;
+  transition: fill 0.3s;
+}
+#Points :hover{
+  fill: #1e3a43;
+}
+#Brcko {
+  fill: #ffffff;
+  stroke: #1e3a43;
+  stroke-width:4px;
+  transition: fill 0.3s;
+}
+#Canton_borders {
+  fill: none;
+  stroke: none;
+  stroke-width:none;
+  transition: fill 0.3s;
+}
+#States_borders {
+  fill: none;
+  stroke: #1e3a43;
+  stroke-width:4px;
+  transition: fill 0.3s;
+}
+#FBiH_x2F_RS_borders{
+  fill: #ffffff;
+  stroke: #1e3a43;
+  stroke-width:4px;
+  transition: fill 0.3s;
+}
+#Bosnian  {
+    fill: #bfb298;
+    stroke: #1e3a43;
+    stroke-width:4px;
+    transition: fill 0.3s;
+}
+
+#BosnianCroat{
+  fill: #bfb298;
+  stroke: #1e3a43;
+  stroke-width:4px;
+  transition: fill 0.3s;
+}
+
+#Croat_Cantons {
+    fill: #bfb298;
+    stroke: #1e3a43;
+    stroke-width:4px;
+    transition: fill 0.3s;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+#popup
+{
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 600px;
+  padding: 50px;
+  overflow:auto;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+#popup.active
+{
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+  overflow:auto;
+}
