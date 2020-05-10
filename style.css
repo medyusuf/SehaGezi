@@ -83,13 +83,13 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
-  width: 900px;
+  width: 800px;
   padding: 50px;
 
   visibility: hidden;
   opacity: 0;
   transition: 0.5s;
-  overflow:auto;
+  overflow: scroll;
 }
 #popup.active
 {
@@ -97,5 +97,5 @@
   visibility: visible;
   opacity: 1;
   transition: 0.5s;
-  overflow:auto;
+  overflow: scroll;
 }
