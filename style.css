@@ -83,9 +83,9 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
-  width: 600px;
+  width: 640px;
   padding: 50px;
-  overflow:auto;
+  overflow: scroll;
 
   visibility: hidden;
   opacity: 0;
@@ -97,5 +97,5 @@
   visibility: visible;
   opacity: 1;
   transition: 0.5s;
-  overflow:auto;
+  overflow: scroll;
 }
